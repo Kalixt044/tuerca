@@ -1,0 +1,28 @@
+
+var canvas = document.getElementById('Canvax');
+var ctx = canvas.getContext('2d');
+
+ctx.fillStyle = "orange";
+ctx.fillRect(0,0 , 480,415);
+ 
+ctx.beginPath();  
+ctx.moveTo(103,180);
+ctx.fillStyle = "red";
+ctx.fillRect(98,80, 42, 0.8);
+ctx.fillRect(98,80,2,290);
+ctx.fillRect(140,80,2,290)
+ctx.fillRect(100,124,40,0.8)
+ctx.fillRect(100,302,40,0.8)
+ctx.fillRect(100,344,40,0.8);
+/*** Ellipse ***/ 
+ctx.beginPath();
+ctx.ellipse(120, 96, 10,4, Math.PI / 2, 0, 2 * Math.PI);
+ctx.ellipse(120, 260,10,4 / 2,0,2 Math.PI);
+ctx.stroke();
+cxt
+
+/*** ctx.beginPath();
+ctx.setLineDash([5, 5]);
+ctx.moveTo(0, 200);
+ctx.lineTo(200, 0);
+ctx.stroke();***/
