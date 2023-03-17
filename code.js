@@ -1,4 +1,4 @@
-
+//esto es  el principio de l proyecto
 var canvas = document.getElementById('Canvax');
 var ctx = canvas.getContext('2d');
 
