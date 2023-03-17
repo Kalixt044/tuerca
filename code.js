@@ -36,6 +36,7 @@ ctx.ellipse(114, 302,12,4, Math.PI / 2,0,2* Math.PI);
 
 ctx.stroke();
 
-/*** Otro Canvas***/ 
+/*** identificar otro
+ Canvas***/ 
 
 
